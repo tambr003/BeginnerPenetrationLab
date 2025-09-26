@@ -1,0 +1,41 @@
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE caches
+.vscode/
+.idea/
+*.swp
+
+# Python / scripting leftovers (if you add scripts later)
+__pycache__/
+*.pyc
+
+# Node / MkDocs / static site build outputs
+node_modules/
+site/
+
+# Evidence & sensitive data
+evidence/
+screenshots/
+loot/
+dumps/
+*.pcap
+*.log
+*.zip
+*.7z
+*.gz
+*.key
+*.crt
+*.pem
+*.kdbx
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Ignore backups of Markdown/notes
+*~
+*.md.bak
